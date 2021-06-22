@@ -2,7 +2,7 @@
 set -e
 
 #installing openfire
-wget -O openfire.deb http://www.igniterealtime.org/downloadServlet?filename=openfire/openfire_4.5.1_all.deb
+wget -O openfire.deb http://www.igniterealtime.org/downloadServlet?filename=openfire/openfire_4.6.4_all.deb
 dpkg -i openfire.deb
 rm openfire.deb
 
